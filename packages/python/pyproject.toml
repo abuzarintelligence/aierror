@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-error"
+version = "0.2.0"
+description = "ai_error: AI self-healing error handling for Python. Decorate a function; on exception an LLM (OpenAI, Anthropic, Gemini, Groq, Mistral, Ollama) repairs it in scope, reloads it and retries."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["ai-error", "self-healing", "self-healing-code", "auto-fix", "error-handling", "llm", "openai", "anthropic", "claude", "gemini", "ai-debugging", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Debuggers",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USER/ai-error"
+Repository = "https://github.com/YOUR_USER/ai-error"
+Issues = "https://github.com/YOUR_USER/ai-error/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_error"]

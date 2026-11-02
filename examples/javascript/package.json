@@ -1,0 +1,6 @@
+{
+  "name": "ai-error-example-js",
+  "private": true,
+  "description": "Example: self-healing JavaScript using the local ai-error package",
+  "dependencies": { "ai-error": "file:../../packages/npm" }
+}

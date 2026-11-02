@@ -1,0 +1,48 @@
+{
+  "name": "ai-error",
+  "version": "0.2.0",
+  "description": "aiError: AI self-healing error handling for JavaScript. Wrap any function; on error an LLM (OpenAI, Anthropic, Gemini, Groq, Mistral, Ollama) repairs the failing function in scope, reloads it and retries.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai-error",
+    "self-healing",
+    "self-healing-code",
+    "auto-fix",
+    "error-handling",
+    "llm",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "gpt",
+    "ai-debugging",
+    "javascript",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/ai-error.test.js"
+  },
+  "dependencies": {
+    "acorn": "^8.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USER/ai-error.git"
+  },
+  "homepage": "https://github.com/YOUR_USER/ai-error#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USER/ai-error/issues"
+  }
+}

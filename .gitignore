@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.env
+.ai-error/
